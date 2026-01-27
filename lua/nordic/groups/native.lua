@@ -95,6 +95,15 @@ function M.get_groups()
     G.LspReferenceText = { bg = C.fg_gutter } -- used for highlighting "text" references
     G.LspReferenceRead = { bg = C.fg_gutter } -- used for highlighting "read" references
     G.LspReferenceWrite = { bg = C.fg_gutter } -- used for highlighting "write" references
+    G.LspReference = { link = 'LspReferenceText' } -- legacy/general reference highlight
+    G.IlluminatedWordText = { link = 'LspReferenceText' }
+    G.IlluminatedWordRead = { link = 'LspReferenceRead' }
+    G.IlluminatedWordWrite = { link = 'LspReferenceWrite' }
+    G.CursorWord = { link = 'LspReferenceText' }
+    G.CursorWord0 = { link = 'LspReferenceText' }
+    G.CursorWord1 = { link = 'LspReferenceText' }
+    G.MiniCursorword = { link = 'LspReferenceText' }
+    G.MiniCursorwordCurrent = { link = 'LspReferenceText' }
     G.DiagnosticError = { fg = C.error } -- Used as the base highlight group. Other Diagnostic highlights link to this by default
     G.DiagnosticWarn = { fg = C.warning } -- Used as the base highlight group. Other Diagnostic highlights link to this by default
     G.DiagnosticInfo = { fg = C.info } -- Used as the base highlight group. Other Diagnostic highlights link to this by default

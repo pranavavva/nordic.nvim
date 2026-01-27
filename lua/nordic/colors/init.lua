@@ -53,6 +53,7 @@ function C.build_palette()
     C.fg = C.white0
     C.fg_bright = C.white1
     C.fg_dark = C.white0
+    C.fg_gutter = C.gray3
     C.fg_sidebar = C.gray2
     C.fg_fold = C.fg
     C.fg_selected = C.fg_bright
