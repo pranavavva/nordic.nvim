@@ -95,7 +95,7 @@ function C.build_palette()
     C.info = C.blue2
 
     -- Misc
-    C.comment = C.white0
+    C.comment = C.white0_normal
 
     -- Modify the palette after generating colors.
     options.after_palette(C)
