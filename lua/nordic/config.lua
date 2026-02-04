@@ -37,7 +37,7 @@ local defaults = {
         -- Available styles: 'dark', 'light'.
         theme = 'dark',
         -- Blending the cursorline bg with the buffer bg.
-        blend = 0.85,
+        blend = 0.50,
     },
     integrations = {
         dashboard = true,
