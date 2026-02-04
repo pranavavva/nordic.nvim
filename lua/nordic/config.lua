@@ -18,7 +18,7 @@ local defaults = {
     -- Enable editor background transparency.
     transparent = {
         -- Enable transparent background.
-        bg = false,
+        bg = true,
         -- Enable transparent background for floating windows.
         float = false,
     },
@@ -37,7 +37,7 @@ local defaults = {
         -- Available styles: 'dark', 'light'.
         theme = 'dark',
         -- Blending the cursorline bg with the buffer bg.
-        blend = 0.50,
+        blend = 0.85,
     },
     integrations = {
         dashboard = true,
